@@ -3,14 +3,14 @@
 buildscript {
     repositories {
         jcenter()
-
-
+        mavenLocal()
     }
+
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.2.3'
+        classpath 'com.android.tools.build:gradle:2.3.0'
         classpath 'org.gradle.api.plugins:gradle-nexus-plugin:0.7'
-        classpath 'org.aspectj:aspectjtools:1.8.5'
-        classpath "com.github.dcendents:android-maven-plugin:1.2"
+        classpath 'org.aspectj:aspectjtools:1.8.6'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
 
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -19,10 +19,15 @@ buildscript {
 
 }
 
+ext {
+  compileSdkVersion = 23
+  buildToolsVersion = "25.0.2"
+}
 
 allprojects {
     repositories {
         jcenter()
+        mavenLocal()
     }
 
 }

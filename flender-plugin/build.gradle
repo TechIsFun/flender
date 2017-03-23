@@ -1,8 +1,8 @@
 apply plugin: 'groovy'
 apply plugin: 'nexus'
 
-group = 'com.github.jd-alexander'
-version = '1.0'
+group = 'com.github.techisfun'
+version = '1.0.1'
 
 targetCompatibility = JavaVersion.VERSION_1_7
 sourceCompatibility = JavaVersion.VERSION_1_7
@@ -10,9 +10,9 @@ sourceCompatibility = JavaVersion.VERSION_1_7
 dependencies {
   compile gradleApi()
   compile localGroovy()
-  compile 'com.android.tools.build:gradle:1.1.0-rc3'
-  compile 'org.aspectj:aspectjtools:1.8.5'
-  compile 'org.aspectj:aspectjrt:1.8.5'
+  compile 'com.android.tools.build:gradle:2.3.0'
+  compile 'org.aspectj:aspectjtools:1.8.6'
+  compile 'org.aspectj:aspectjrt:1.8.6'
 }
 
 

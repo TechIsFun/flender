@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
         applicationId "com.flender.example"
         minSdkVersion 15
-        targetSdkVersion 22
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
     }
@@ -31,7 +31,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.github.jd-alexander:flender-plugin:1.0'
+        classpath 'com.github.techisfun:flender-plugin:1.0'
     }
 }
 apply plugin: 'flender'

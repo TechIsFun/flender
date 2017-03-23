@@ -7,15 +7,15 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
 
-group = 'com.github.jd-alexander'
-version = '1.0'
+group = 'com.github.techisfun'
+version = '1.0.1'
 
 dependencies {
-    compile 'org.aspectj:aspectjrt:1.8.5'
+    compile 'org.aspectj:aspectjrt:1.8.6'
 }
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
         minSdkVersion 14

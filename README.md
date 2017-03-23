@@ -1,4 +1,4 @@
-# Flender [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.jd-alexander/flender-plugin/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.github.jd-alexander/flender-plugin/) [![Build Status](https://travis-ci.org/jd-alexander/flender.svg?branch=master)](https://travis-ci.org/jd-alexander/flender) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Flender-green.svg?style=flat)](https://android-arsenal.com/details/1/2094)
+# Flender [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.techisfun/flender-plugin/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.github.techisfun/flender-plugin/) [![Build Status](https://travis-ci.org/techisfun/flender.svg?branch=master)](https://travis-ci.org/techisfun/flender) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Flender-green.svg?style=flat)](https://android-arsenal.com/details/1/2094)
 Annotation triggered connectivity checking for Android - powered by Java's Aspect Oriented Programming Framework, AspectJ
 
 Aren't you tired of doing this all over your code? 
@@ -35,7 +35,7 @@ buildscript {
   }
 
   dependencies {
-    classpath 'com.github.jd-alexander:flender-plugin:1.0'
+    classpath 'com.github.techisfun:flender-plugin:1.0'
   }
 }
 
